@@ -1,0 +1,55 @@
+.wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1250px;
+    margin: 0 auto; */
+
+}
+
+.left{
+    flex: 1;
+    display: flex ;
+    align-items: center;
+    gap: 2rem;
+}
+
+.left .name {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+
+}
+.name:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.right .list ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 2rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+
+
+.list ul>li{
+    transition: all 0.2s ease-in-out;
+
+}
+
+.list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}

@@ -1,0 +1,25 @@
+.floatingDiv{
+    border: 1px solid rgb(213, 203, 203);
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: white;
+}
+
+.floatingDiv>img{
+    width: 50px;
+}
+
+.floatingDiv>div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.floatingDiv>div>*{
+    font-size: 1.02rem;
+}
+
