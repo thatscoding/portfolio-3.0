@@ -1,5 +1,5 @@
 .i-wrapper{
-    height: 80vh;
+    height: 87vh;
     /* background-color: aqua; */
     display: flex;
 }
@@ -77,11 +77,22 @@
 
 .i-right>:nth-child(5){
     left: 9%;
-    bottom: 8%
+    bottom: 14%
 }
 
 .i-right>:nth-child(6){
     scale: 0.61;
     left: -12%;
     top: -3%;
+}
+
+.blur{
+    width: 22rem;
+    height: 14rem;
+    filter: blur(72px);
+    z-index: -9;
+    background: #edd0ff;
+    border-radius: 50%;
+
+
 }
