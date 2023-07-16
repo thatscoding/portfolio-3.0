@@ -1,0 +1,71 @@
+.s-wrapper{
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+
+.s-left{
+    flex: 1;
+}
+
+.s-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.s-left>:nth-child(1){
+    margin-top: 3rem;
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.s-left>:nth-child(2){
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.s-left>:nth-child(3){
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(81, 75, 75);
+
+    width: 80%;
+}
+
+.s-left>:nth-child(4){
+    margin-top: 5rem;
+}
+
+.s-button{
+    width: 160px;
+}
+.s-button:hover{
+    width: 160px;
+}
+
+
+.s-right{
+    flex: 1;
+    position: relative;
+}
+
+.s-right>*{
+    position: absolute;
+}
+.s-right>:nth-child(1){
+    right: 20%;
+    top: 6%;
+}
+
+.s-right>:nth-child(2){
+   left: -10%;
+   top: 25%;
+}
+
+.s-right>:nth-child(3){
+    right: 26%;
+    bottom: 1%;
+}

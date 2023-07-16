@@ -58,7 +58,7 @@ const Hero = () => {
           ></div>
           <div
             className="blur"
-            style={{ background: "#C1F5FF", left: "-5%", bottom: "-5%" }}
+            style={{ background: "#C1F5FF", left: "-20%", bottom: "-5%" }}
           ></div>
         </div>
       </div>
