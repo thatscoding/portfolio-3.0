@@ -18,7 +18,7 @@ function Works() {
           sit amet consectetur adipisicing elit. adipisicing elit. totam br eos
           provident quam, odi alias
         </span>
-        <button className="button s-button">Download CV</button>
+        <button className="button s-button">Hire Me</button>
         <div
           className="blur"
           style={{ background: "#C1F5FF", left: "-20%", bottom: "-5%" }}
